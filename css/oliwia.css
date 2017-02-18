@@ -10,6 +10,12 @@ body {
 */
 /* Header Image Background - Change the URL below to your image path (example: ../images/background.jpg) */
 
+* {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: ;
+}
+
 .business-header {
     height: 400px;
     background: url('../assets/background.jpg') center center no-repeat scroll;
@@ -22,8 +28,9 @@ body {
 /* Customize the text color and shadow color and to optimize text legibility. */
 
 .tagline {
-    text-shadow: 0 0 10px #000;
-    color: #fff;
+    margin-top: 10px;
+    /*text-shadow: 0 0 10px #000;*/
+    /*color: #fff;*/
 }
 
 .img-center {
@@ -45,11 +52,39 @@ body {
 }
 
 .content {
-    margin: 20px 30px 0 30px;
+    margin-top: 20px;
+    /*margin: 20px 30px 0 30px;*/
 
 }
 
+#gmap {
+    min-height: 400px;
+}
+
+.contact-me-heading {
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.contact-info {
+    /*line-height: */
+}
 
 footer {
-    margin: 50px 0;
+    margin: 50px 0 30px;
+}
+
+.images-container img {
+    max-height: 200px;
+    margin-bottom: 10px;
+}
+
+@media only screen and (max-device-width: 768px) {
+    .tagline {
+        font-size: 22px;
+    }
+}
+
+.budynek {
+    margin-top: 15px;
 }
